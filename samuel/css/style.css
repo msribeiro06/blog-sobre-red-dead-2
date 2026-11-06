@@ -1,8 +1,40 @@
-h1 {
-    color: rgb(197, 2, 2);
-}
-p {
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
     color: white;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+}
+
+.topo {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.topo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: #d4a64a;
 }
